@@ -11,7 +11,7 @@
 	<key>CFBundleIcons</key>
 	<dict/>
 	<key>CFBundleIdentifier</key>
-	<string>com.parse.f8</string>
+	<string>com.bb.f8app</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
