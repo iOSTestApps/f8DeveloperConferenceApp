@@ -43,6 +43,7 @@
 #import "UIColor+PDD.h"
 
 #import <Parse/Parse.h>
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 @interface PDDAppDelegate () <PFLogInViewControllerDelegate, UITabBarControllerDelegate>
 - (void)_customizeAppearance;
@@ -59,6 +60,8 @@
 
 #pragma mark - UIApplicationDelegate methods
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [BuddyBuildSDK setup:self];
+    
     [PDDTalk registerSubclass];
     [PDDSpeaker registerSubclass];
     [PDDRoom registerSubclass];

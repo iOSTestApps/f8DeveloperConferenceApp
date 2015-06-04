@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		149140A22D005A567ECE5C38 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1698C779A4127A111958436D /* CoreText.framework */; };
 		301EED9A18D044C100D80AAE /* PDDScheduleTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301EED9918D044C100D80AAE /* PDDScheduleTrackViewController.m */; };
 		301EEE3E18D260FD00D80AAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301EEE3D18D260FD00D80AAE /* Images.xcassets */; };
 		301EEE4418D3C9A500D80AAE /* PDDTalkHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 301EEE4318D3C9A500D80AAE /* PDDTalkHeaderView.m */; };
@@ -79,10 +80,13 @@
 		97CA1C2C17C2C69F000F4D10 /* UIView+PDD.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CA1C2B17C2C69F000F4D10 /* UIView+PDD.m */; };
 		97F9D6E817AC49AF00C6B9C6 /* PDDSpeakerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F9D6E717AC49AF00C6B9C6 /* PDDSpeakerButton.m */; };
 		97F9D6EC17AC653A00C6B9C6 /* UIColor+PDD.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F9D6EB17AC653A00C6B9C6 /* UIColor+PDD.m */; };
+		C34CEE9C160752E5D0CDAD1A /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7842F25690B9091A4A9BB9 /* BuddyBuildSDK.framework */; };
 		E786C00A17C3DD0A0059950B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E786C00917C3DD0A0059950B /* libz.dylib */; };
+		EC95D570F265BE6C69575704 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70463665766CEDED83637BF /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1698C779A4127A111958436D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		301EED9818D044C100D80AAE /* PDDScheduleTrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDDScheduleTrackViewController.h; sourceTree = "<group>"; };
 		301EED9918D044C100D80AAE /* PDDScheduleTrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDDScheduleTrackViewController.m; sourceTree = "<group>"; };
 		301EEE3D18D260FD00D80AAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -151,6 +155,7 @@
 		30E4724718E519BE00BCF6DB /* PDDMapListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDDMapListViewController.m; sourceTree = "<group>"; };
 		30EF2526196F025300E75BA6 /* PDDTalkViewAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDDTalkViewAnimationController.h; sourceTree = "<group>"; };
 		30EF2527196F025300E75BA6 /* PDDTalkViewAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDDTalkViewAnimationController.m; sourceTree = "<group>"; };
+		4B7842F25690B9091A4A9BB9 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		970588F317AC7B7E007E67A7 /* UILabel+PDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UILabel+PDD.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		970588F417AC7B7E007E67A7 /* UILabel+PDD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UILabel+PDD.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		970E909A17AB01D600E7E897 /* PDDBaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDDBaseListViewController.h; sourceTree = "<group>"; };
@@ -213,6 +218,7 @@
 		97F9D6E717AC49AF00C6B9C6 /* PDDSpeakerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PDDSpeakerButton.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		97F9D6EA17AC653A00C6B9C6 /* UIColor+PDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIColor+PDD.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		97F9D6EB17AC653A00C6B9C6 /* UIColor+PDD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIColor+PDD.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		E70463665766CEDED83637BF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		E786C00917C3DD0A0059950B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -235,6 +241,9 @@
 				97C5F56317A343AE0071C5EC /* UIKit.framework in Frameworks */,
 				97C5F56517A343AE0071C5EC /* Foundation.framework in Frameworks */,
 				309E915718C135D900FD18F6 /* FacebookSDK.framework in Frameworks */,
+				C34CEE9C160752E5D0CDAD1A /* BuddyBuildSDK.framework in Frameworks */,
+				EC95D570F265BE6C69575704 /* AssetsLibrary.framework in Frameworks */,
+				149140A22D005A567ECE5C38 /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +366,9 @@
 				97C5F56217A343AE0071C5EC /* UIKit.framework */,
 				97C5F56417A343AE0071C5EC /* Foundation.framework */,
 				97C5F56617A343AE0071C5EC /* CoreGraphics.framework */,
+				4B7842F25690B9091A4A9BB9 /* BuddyBuildSDK.framework */,
+				E70463665766CEDED83637BF /* AssetsLibrary.framework */,
+				1698C779A4127A111958436D /* CoreText.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -685,6 +697,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "F8 Developer Conference/F8 Developer Conference-Prefix.pch";
@@ -712,6 +725,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "F8 Developer Conference/F8 Developer Conference-Prefix.pch";
@@ -769,6 +783,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "F8 Developer Conference/F8 Developer Conference-Prefix.pch";
